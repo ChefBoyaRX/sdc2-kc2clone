@@ -1,0 +1,14 @@
+﻿SELECT OrderID, CustomerName 
+FROM Customers, Orders
+WHERE Orders.CustomerID = Customers.CustomerID
+AND OrderID = 10310;
+
+Answer = Order 10310 - 'The Big Cheese'
+
+SELECT Address, ProductID
+FROM Products, Suppliers
+WHERE Produts.SupplierID = Supplier.SupplierID
+AND ProductID = 40;
+
+Answer = Order Processing Dept. 2100 Paul Revere Blvd.
+
